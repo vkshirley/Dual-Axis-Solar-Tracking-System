@@ -1,0 +1,726 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAF2OPah9hIRBxg=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel1",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAF2OPah9hISAGA=",
+					"_parent": {
+						"$ref": "AAAAAAF2OPah9hIRBxg="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF2OPa03hIYF34=",
+							"_parent": {
+								"$ref": "AAAAAAF2OPah9hISAGA="
+							},
+							"model": {
+								"$ref": "AAAAAAF2OPa03hIW6HQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2OPa03xIekuY=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPa03hIYF34="
+									},
+									"font": "Arial;13;0",
+									"left": 234,
+									"top": 29,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2OPa03hIZvz0=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPa03hIYF34="
+									},
+									"font": "Arial;13;0",
+									"left": 234,
+									"top": 34,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "Sunlight",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2OPa03xIav7Y=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPa03hIYF34="
+									},
+									"font": "Arial;13;0",
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 224,
+							"top": 24,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF2OPa03hIZvz0="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF2OPbCkhIjIU8=",
+							"_parent": {
+								"$ref": "AAAAAAF2OPah9hISAGA="
+							},
+							"model": {
+								"$ref": "AAAAAAF2OPbCkhIhTOs="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2OPbCkxIpfnw=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPbCkhIjIU8="
+									},
+									"font": "Arial;13;0",
+									"left": 234,
+									"top": 125,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2OPbCkhIkYJc=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPbCkhIjIU8="
+									},
+									"font": "Arial;13;0",
+									"left": 234,
+									"top": 130,
+									"width": 87.4326171875,
+									"height": 39,
+									"text": " solar panel and LDR sensors",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2OPbCkhIlVQs=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPbCkhIjIU8="
+									},
+									"font": "Arial;13;0",
+									"left": -48,
+									"top": 8,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 224,
+							"top": 120,
+							"width": 107.4326171875,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAF2OPbCkhIkYJc="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF2OPbFvxIuGOk=",
+							"_parent": {
+								"$ref": "AAAAAAF2OPah9hISAGA="
+							},
+							"model": {
+								"$ref": "AAAAAAF2OPbFvxIsvYY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2OPbFwBI0zus=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPbFvxIuGOk="
+									},
+									"font": "Arial;13;0",
+									"left": 234,
+									"top": 245,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2OPbFvxIvhYI=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPbFvxIuGOk="
+									},
+									"font": "Arial;13;0",
+									"left": 234,
+									"top": 250,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "Arduino",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2OPbFvxIwuJ8=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPbFvxIuGOk="
+									},
+									"font": "Arial;13;0",
+									"left": -48,
+									"top": 24,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 224,
+							"top": 240,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF2OPbFvxIvhYI="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF2OPbHyhI5mbs=",
+							"_parent": {
+								"$ref": "AAAAAAF2OPah9hISAGA="
+							},
+							"model": {
+								"$ref": "AAAAAAF2OPbHyhI3GJM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2OPbHyxI/yeM=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPbHyhI5mbs="
+									},
+									"font": "Arial;13;0",
+									"left": 234,
+									"top": 333,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2OPbHyxI69Ok=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPbHyhI5mbs="
+									},
+									"font": "Arial;13;0",
+									"left": 234,
+									"top": 338,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "Servo motors",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2OPbHyxI7css=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPbHyhI5mbs="
+									},
+									"font": "Arial;13;0",
+									"left": -32,
+									"top": 16,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 224,
+							"top": 328,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF2OPbHyxI69Ok="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF2OPiLHhJvS/s=",
+							"_parent": {
+								"$ref": "AAAAAAF2OPah9hISAGA="
+							},
+							"model": {
+								"$ref": "AAAAAAF2OPiLHRJtNF8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2OPiLHhJwyCc=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPiLHhJvS/s="
+									},
+									"model": {
+										"$ref": "AAAAAAF2OPiLHRJtNF8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 291,
+									"top": 81,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF2OPiLHhJvS/s="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF2OPbCkhIjIU8="
+							},
+							"tail": {
+								"$ref": "AAAAAAF2OPa03hIYF34="
+							},
+							"lineStyle": 2,
+							"points": "277:56;277:120",
+							"nameLabel": {
+								"$ref": "AAAAAAF2OPiLHhJwyCc="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF2OPiQ8BJ41B4=",
+							"_parent": {
+								"$ref": "AAAAAAF2OPah9hISAGA="
+							},
+							"model": {
+								"$ref": "AAAAAAF2OPiQ8BJ2sj0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2OPiQ8BJ5/hU=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPiQ8BJ41B4="
+									},
+									"model": {
+										"$ref": "AAAAAAF2OPiQ8BJ2sj0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 291,
+									"top": 202,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF2OPiQ8BJ41B4="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF2OPbFvxIuGOk="
+							},
+							"tail": {
+								"$ref": "AAAAAAF2OPbCkhIjIU8="
+							},
+							"lineStyle": 2,
+							"points": "277:178;277:240",
+							"nameLabel": {
+								"$ref": "AAAAAAF2OPiQ8BJ5/hU="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF2OPiUaxKBtbQ=",
+							"_parent": {
+								"$ref": "AAAAAAF2OPah9hISAGA="
+							},
+							"model": {
+								"$ref": "AAAAAAF2OPiUaxJ/st4="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2OPiUaxKC/FU=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPiUaxKBtbQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF2OPiUaxJ/st4="
+									},
+									"font": "Arial;13;0",
+									"left": 287,
+									"top": 293,
+									"width": 130.0634765625,
+									"height": 13,
+									"alpha": 1.5841285111687236,
+									"distance": 75.0066663703967,
+									"hostEdge": {
+										"$ref": "AAAAAAF2OPiUaxKBtbQ="
+									},
+									"edgePosition": 1,
+									"text": "sends signal to motors"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF2OPbHyhI5mbs="
+							},
+							"tail": {
+								"$ref": "AAAAAAF2OPbFvxIuGOk="
+							},
+							"lineStyle": 2,
+							"points": "277:272;277:328",
+							"nameLabel": {
+								"$ref": "AAAAAAF2OPiUaxKC/FU="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF2OPjZsRKWiF0=",
+							"_parent": {
+								"$ref": "AAAAAAF2OPah9hISAGA="
+							},
+							"model": {
+								"$ref": "AAAAAAF2OPjZsRKUWMc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2OPjZsRKXXMo=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPjZsRKWiF0="
+									},
+									"font": "Arial;13;0",
+									"left": 250,
+									"top": 448,
+									"width": 56.3671875,
+									"height": 78,
+									"text": "Moves motor according to sunlight intensity",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2OPjZsRKYy80=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPjZsRKWiF0="
+									},
+									"font": "Arial;13;0",
+									"left": 250,
+									"top": 421,
+									"width": 56.3671875,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 240,
+							"top": 416,
+							"width": 76.3671875,
+							"height": 121,
+							"nameLabel": {
+								"$ref": "AAAAAAF2OPjZsRKXXMo="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF2OPjZsRKYy80="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF2OPmeXxKr62E=",
+							"_parent": {
+								"$ref": "AAAAAAF2OPah9hISAGA="
+							},
+							"model": {
+								"$ref": "AAAAAAF2OPmeXxKpPzU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2OPmeXxKsQ5o=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPmeXxKr62E="
+									},
+									"model": {
+										"$ref": "AAAAAAF2OPmeXxKpPzU="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 292,
+									"top": 381,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF2OPmeXxKr62E="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF2OPjZsRKWiF0="
+							},
+							"tail": {
+								"$ref": "AAAAAAF2OPbHyhI5mbs="
+							},
+							"lineStyle": 2,
+							"points": "278:360;278:416",
+							"nameLabel": {
+								"$ref": "AAAAAAF2OPmeXxKsQ5o="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF2OPq0NBLULNg=",
+							"_parent": {
+								"$ref": "AAAAAAF2OPah9hISAGA="
+							},
+							"model": {
+								"$ref": "AAAAAAF2OPq0NBLSGZ4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2OPq0NRLamN4=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPq0NBLULNg="
+									},
+									"font": "Arial;13;0",
+									"left": 42,
+									"top": 245,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2OPq0NBLV3oo=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPq0NBLULNg="
+									},
+									"font": "Arial;13;0",
+									"left": 42,
+									"top": 250,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "display",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2OPq0NBLW2Ng=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPq0NBLULNg="
+									},
+									"font": "Arial;13;0",
+									"left": -32,
+									"top": -16,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 32,
+							"top": 240,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF2OPq0NBLV3oo="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF2OPrNFhLhQw8=",
+							"_parent": {
+								"$ref": "AAAAAAF2OPah9hISAGA="
+							},
+							"model": {
+								"$ref": "AAAAAAF2OPrNFhLfldQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2OPrNFhLis64=",
+									"_parent": {
+										"$ref": "AAAAAAF2OPrNFhLhQw8="
+									},
+									"model": {
+										"$ref": "AAAAAAF2OPrNFhLfldQ="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 180,
+									"top": 265,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF2OPrNFhLhQw8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF2OPq0NBLULNg="
+							},
+							"tail": {
+								"$ref": "AAAAAAF2OPbFvxIuGOk="
+							},
+							"lineStyle": 2,
+							"points": "224:256;138:256",
+							"nameLabel": {
+								"$ref": "AAAAAAF2OPrNFhLis64="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF2OPa03hIW6HQ=",
+					"_parent": {
+						"$ref": "AAAAAAF2OPah9hIRBxg="
+					},
+					"name": "Sunlight",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF2OPiLHRJtNF8=",
+							"_parent": {
+								"$ref": "AAAAAAF2OPa03hIW6HQ="
+							},
+							"source": {
+								"$ref": "AAAAAAF2OPa03hIW6HQ="
+							},
+							"target": {
+								"$ref": "AAAAAAF2OPbCkhIhTOs="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF2OPbCkhIhTOs=",
+					"_parent": {
+						"$ref": "AAAAAAF2OPah9hIRBxg="
+					},
+					"name": " solar panel and LDR sensors",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF2OPiQ8BJ2sj0=",
+							"_parent": {
+								"$ref": "AAAAAAF2OPbCkhIhTOs="
+							},
+							"source": {
+								"$ref": "AAAAAAF2OPbCkhIhTOs="
+							},
+							"target": {
+								"$ref": "AAAAAAF2OPbFvxIsvYY="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF2OPbFvxIsvYY=",
+					"_parent": {
+						"$ref": "AAAAAAF2OPah9hIRBxg="
+					},
+					"name": "Arduino",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF2OPiUaxJ/st4=",
+							"_parent": {
+								"$ref": "AAAAAAF2OPbFvxIsvYY="
+							},
+							"name": "sends signal to motors",
+							"source": {
+								"$ref": "AAAAAAF2OPbFvxIsvYY="
+							},
+							"target": {
+								"$ref": "AAAAAAF2OPbHyhI3GJM="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF2OPrNFhLfldQ=",
+							"_parent": {
+								"$ref": "AAAAAAF2OPbFvxIsvYY="
+							},
+							"source": {
+								"$ref": "AAAAAAF2OPbFvxIsvYY="
+							},
+							"target": {
+								"$ref": "AAAAAAF2OPq0NBLSGZ4="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF2OPbHyhI3GJM=",
+					"_parent": {
+						"$ref": "AAAAAAF2OPah9hIRBxg="
+					},
+					"name": "Servo motors",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF2OPmeXxKpPzU=",
+							"_parent": {
+								"$ref": "AAAAAAF2OPbHyhI3GJM="
+							},
+							"source": {
+								"$ref": "AAAAAAF2OPbHyhI3GJM="
+							},
+							"target": {
+								"$ref": "AAAAAAF2OPjZsRKUWMc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF2OPjZsRKUWMc=",
+					"_parent": {
+						"$ref": "AAAAAAF2OPah9hIRBxg="
+					},
+					"name": "Moves motor according to sunlight intensity"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF2OPq0NBLSGZ4=",
+					"_parent": {
+						"$ref": "AAAAAAF2OPah9hIRBxg="
+					},
+					"name": "display"
+				}
+			]
+		}
+	]
+}
